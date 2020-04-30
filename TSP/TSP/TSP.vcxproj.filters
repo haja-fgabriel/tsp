@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\services">
+      <UniqueIdentifier>{cbd995f5-d292-4795-a3d1-5f1cd615a087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\services">
+      <UniqueIdentifier>{357736e6-8ba4-4227-8fc1-873ed8fa6f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{54975a59-c95f-4b6b-8860-8947c3925315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{2d5ae9b4-86fc-4ffc-b93c-9d6785e0b7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{bd3b308f-8933-4b46-a827-5f69a6a9c899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{21e72a13-ba94-4378-aec7-1a029b0ba6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{22b34a2c-c9f4-43e5-8636-d0239514a718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tests">
+      <UniqueIdentifier>{461735a1-7ea7-4644-b6b8-064567ce09b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{40977b63-50e2-466e-9210-12aeba75f3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\graph">
+      <UniqueIdentifier>{b2adac04-08c2-4273-a1b8-05bd235ab702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\genAlgo">
+      <UniqueIdentifier>{ef8b475a-87d8-4bae-a46a-31173739558b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\graph">
+      <UniqueIdentifier>{10728070-a0c8-4dba-92e0-1bd1a30b0dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\genAlgo">
+      <UniqueIdentifier>{58f87b0b-c20b-432f-a070-bf3d28ff4e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model\aco">
+      <UniqueIdentifier>{2f7f2daa-bf76-4740-b573-a648657df405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\aco">
+      <UniqueIdentifier>{b0da9f62-86ea-47fd-b509-f401b159ad20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphService.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="DisjointSet.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphAlgorithms.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainedGraph.cpp">
+      <Filter>Source Files\model\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\model\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>Source Files\model\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Chromosome.cpp">
+      <Filter>Source Files\model\genAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithm.cpp">
+      <Filter>Source Files\model\genAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="AntColony.cpp">
+      <Filter>Source Files\model\aco</Filter>
+    </ClCompile>
+    <ClCompile Include="Ant.cpp">
+      <Filter>Source Files\model\aco</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphService.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="DisjointSet.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphAlgorithms.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Header Files\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainedGraph.h">
+      <Filter>Header Files\model\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Header Files\model\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\model\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithm.h">
+      <Filter>Header Files\model\genAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="Chromosome.h">
+      <Filter>Header Files\model\genAlgo</Filter>
+    </ClInclude>
+    <ClInclude Include="Ant.h">
+      <Filter>Header Files\model\aco</Filter>
+    </ClInclude>
+    <ClInclude Include="AntColony.h">
+      <Filter>Header Files\model\aco</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidationErrorType.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\specification_tsp.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="data\medium_01_tsp.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\hard_01_tsp.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\easy_01_tsp.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
